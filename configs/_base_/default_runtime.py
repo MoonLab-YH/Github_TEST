@@ -160,4 +160,4 @@ X_U_repeat = 2
 # The hyper-parameters lambda and k can be changed here.
 train_cfg = dict(param_lambda = 0.5)
 k = 10000
-uncertainty_type = 'Entropy'
+uncertainty_type = 'random'

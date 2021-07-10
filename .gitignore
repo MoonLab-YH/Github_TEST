@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Checkpoint and current ann_file
+work_dirs/
+tools/work_dirs/
+tools/show_dir/
