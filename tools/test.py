@@ -139,7 +139,6 @@ def main():
         elif cfg.model.neck.get('rfp_backbone'):
             if cfg.model.neck.rfp_backbone.get('pretrained'):
                 cfg.model.neck.rfp_backbone.pretrained = None
-
     # in case the test dataset is concatenated
     samples_per_gpu = 1
     if isinstance(cfg.data.test, dict):

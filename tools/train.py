@@ -84,9 +84,11 @@ def parse_args():
     if args.options:
         warnings.warn('--options is deprecated in favor of --cfg-options')
         args.cfg_options = args.options
-
+    a=2
+    b=3
+    c= 5
+    d = 555
     return args
-
 
 def main():
     args = parse_args()
