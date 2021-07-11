@@ -1,4 +1,5 @@
 print('commit <1>')
+print('commit <3>')
 
 import argparse
 import os
